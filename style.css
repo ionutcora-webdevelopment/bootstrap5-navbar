@@ -1,0 +1,17 @@
+
+header {
+    background-image: url(./bg1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    font-size: 5rem;
+    text-shadow: 2px 2px 8px #000000;
+}
+
+@media only screen and (max-width: 576px) {
+    header h1 {
+        font-size: 4rem;
+    }
+}
